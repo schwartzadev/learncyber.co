@@ -1,0 +1,44 @@
+html {
+    height: 100%;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    background:#ECECEA}
+
+p {
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    height: 100%;
+    width: 100%;
+    min-width: 100%;
+    text-align: center;
+}
+
+h6 {
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    
+    height: 100%;
+
+    width: 100%;
+    min-width: 100%;
+    text-align: left;
+}
+
+h4 {
+        font-size: 110%;
+}
+
+h3 {
+        font-size: 140%;
+}
+
+
+@media print {
+    /* Remove extra elements */
+    #nav_div, .noprint {
+        display: none;
+    }
